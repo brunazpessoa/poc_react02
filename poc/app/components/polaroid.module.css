@@ -1,0 +1,19 @@
+.polaroid figcaption {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .polaroid {
+    width: 250px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+    
+  .polaroid img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+     
