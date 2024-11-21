@@ -117,6 +117,7 @@ text-align: center;: Centraliza todo o conteúdo dentro do contêiner.
 ```
 
 **4.3 Imagem da polaroid**
+
 ![image](https://github.com/user-attachments/assets/91862277-ef42-414d-8dba-7a2e31272c60)
 
 ```
