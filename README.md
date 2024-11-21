@@ -146,3 +146,22 @@ Um botão que alterna as classes dark-mode e light-mode no elemento <body>, muda
 
 -> border: 1px solid #ddd;: Adiciona uma borda cinza clara ao redor da imagem, reforçando a aparência de uma foto física.
 
+
+5. Modo claro e escuro
+
+Para a definição desses modos, utilzamos no global.css o seguinte código: 
+
+
+![image](https://github.com/user-attachments/assets/b7444c8e-d8eb-43c2-af5d-394e64722fbb)
+
+
+Classe light-mode:
+
+background-color: Cor de fundo cinza-claro (#f0f0f0), ideal para ambientes bem iluminados.
+color: Cor do texto cinza-escuro (#333), garantindo boa legibilidade no fundo claro.
+
+
+Classe dark-mode:
+
+background-color: Cor de fundo cinza-escuro (#333), suave para os olhos em condições de pouca luz.
+color: Cor do texto cinza-claro (#f0f0f0), proporcionando contraste adequado no fundo escuro.
