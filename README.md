@@ -34,7 +34,9 @@ O Home é um componente funcional. Ele serve como o ponto de entrada para render
 
 Renderizando o Componente Polaroid:
    -> Um único componente Polaroid é renderizado com dois props:
+   
          - url: Os dados da imagem em formato Base64.
+         
          - text: A legenda da imagem, que neste caso é "Imagem 1".
 
 
