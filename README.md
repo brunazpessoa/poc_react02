@@ -43,20 +43,6 @@ Renderizando o Componente Polaroid:
 Este arquivo descreve o componente React Polaroid, responsável por renderizar uma imagem com estilo de polaroid, incluir uma legenda e permitir alternar entre modos claro e escuro.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 3.1 Importação:
 
 ![image](https://github.com/user-attachments/assets/3c9f2495-3ef8-4271-81e8-a629657ed3d9)
@@ -64,8 +50,6 @@ Este arquivo descreve o componente React Polaroid, responsável por renderizar u
 -> "use client": Indica que este arquivo React será executado no cliente, no contexto de frameworks como Next.js.
 
 -> styles: Importa o arquivo CSS para aplicar estilos específicos ao componente.
-
-
 
 
 
@@ -79,14 +63,12 @@ Props: Recebe dois parâmetros:
 
 
 
-
 3.3 Container principal:
 
 ![image](https://github.com/user-attachments/assets/e977cf45-175d-45a1-afb2-38041dd142bf)
 
 
 Classe inicial do modo claro (light-mode). Pode ser alternada para dark-mode por meio de um botão.
-
 
 
 
@@ -98,7 +80,6 @@ Classe inicial do modo claro (light-mode). Pode ser alternada para dark-mode por
 -> container: Um contêiner que centraliza e organiza o layout do componente.
 
 -> card: Agrupa o conteúdo principal do polaroid.
-
 
 
 
@@ -116,12 +97,52 @@ Classe inicial do modo claro (light-mode). Pode ser alternada para dark-mode por
 -> figcaption: Exibe a legenda abaixo da imagem.
 
 
-
-
-
 3.6 Botão alteração de modo 
 
 ![image](https://github.com/user-attachments/assets/1382eaa7-7d04-46b2-a807-51d7536e2c8a)
 
 Um botão que alterna as classes dark-mode e light-mode no elemento <body>, mudando o tema entre claro e escuro. Exibe um ícone de sol/lua para indicar a alternância.
+
+
+4. Estilização
+
+4.1 Estilo da fonte da polaroid
+
+![image](https://github.com/user-attachments/assets/1c789513-10f5-481f-b5d5-c29911bd94ba)
+
+
+-> text-align: center;: Centraliza o texto dentro do elemento <figcaption>.
+
+-> font-weight: bold;: Deixa o texto em negrito para destacar a legenda.
+
+-> margin-top: 10px;: Adiciona um espaçamento superior entre a legenda e a imagem.
+
+
+
+4.2 Estilo container da polaroid
+
+
+![image](https://github.com/user-attachments/assets/da67a432-4beb-4a89-88d2-56b30af68e40)
+
+
+-> width: 250px;: Define uma largura fixa para o componente.
+
+-> padding: 10px;: Adiciona espaçamento interno ao redor do conteúdo.
+
+-> background-color: white;: Define o fundo como branco, simulando a borda clássica das polaroids.
+
+-> box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);: Adiciona uma sombra sutil para dar a aparência de elevação.
+
+-> text-align: center;: Centraliza todo o conteúdo dentro do contêiner.
+
+
+4.3 Imagem da polaroid
+
+
+![image](https://github.com/user-attachments/assets/91862277-ef42-414d-8dba-7a2e31272c60)
+
+
+-> max-width: 100%;: Faz com que a imagem se ajuste automaticamente à largura do contêiner, mantendo as proporções.
+
+-> border: 1px solid #ddd;: Adiciona uma borda cinza clara ao redor da imagem, reforçando a aparência de uma foto física.
 
