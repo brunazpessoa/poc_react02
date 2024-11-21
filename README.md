@@ -9,12 +9,12 @@ O React é uma biblioteca JavaScript de código aberto usada para construir inte
 
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-**Estrutura do Projeto**
+**⚙ Estrutura do Projeto**
 
 A estrutura do projeto inclui os seguintes elementos principais:
 
-components/polaroid.js: Contém a implementação do componente Polaroid, que é um componente reutilizável para renderizar imagens e textos.
-Componente Home: O componente principal que utiliza o Polaroid.
+**Components/polaroid.js:** Contém a implementação do componente Polaroid, que é um componente reutilizável para renderizar imagens e textos.
+**Componente Home:** O componente principal que utiliza o Polaroid.
 
 **Explicação do código**
 
@@ -24,4 +24,18 @@ Componente Home: O componente principal que utiliza o Polaroid.
 
 
 Nessa parte do código (pasta page.tsx) o componente Polaroid é importado da pasta components. Essa abordagem modular melhora a organização e facilita a reutilização do código.
+
+2. Criação do Componente Home:
+
+![image](https://github.com/user-attachments/assets/3a3f06ef-089a-4454-9b4c-54c41f918298)
+
+
+O Home é um componente funcional. Ele serve como o ponto de entrada para renderizar o conteúdo da aplicação.
+
+Renderizando o Componente Polaroid:
+   -> Um único componente Polaroid é renderizado com dois props:
+         - url: Os dados da imagem em formato Base64.
+         - text: A legenda da imagem, que neste caso é "Imagem 1".
+
+
 
