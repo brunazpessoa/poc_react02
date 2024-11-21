@@ -55,6 +55,7 @@ Este arquivo descreve o componente React Polaroid, responsável por renderizar u
 
 
 
+
 3.2 Função Polaroid:
 
 ![image](https://github.com/user-attachments/assets/dfb425e8-0426-4582-8f16-065946d866e7)
