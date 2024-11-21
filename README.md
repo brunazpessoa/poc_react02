@@ -37,12 +37,14 @@ Renderizando o Componente Polaroid:
 - text: A legenda da imagem, que neste caso é "Imagem 1".
 
 **3. Componente Polaroid**
+
 Este arquivo descreve o componente React Polaroid, responsável por renderizar uma imagem com estilo de polaroid, incluir uma legenda e permitir alternar entre modos claro e escuro.
 
 
 **3.1 Importação:**
 
 ![image](https://github.com/user-attachments/assets/3c9f2495-3ef8-4271-81e8-a629657ed3d9)
+
 ```
 "use client": Indica que este arquivo React será executado no cliente, no contexto de frameworks como Next.js.
 styles: Importa o arquivo CSS para aplicar estilos específicos ao componente.
@@ -51,6 +53,7 @@ styles: Importa o arquivo CSS para aplicar estilos específicos ao componente.
 **3.2 Função Polaroid:**
 
 ![image](https://github.com/user-attachments/assets/dfb425e8-0426-4582-8f16-065946d866e7)
+
 ```
 Props: Recebe dois parâmetros:
 url: URL da imagem (ou em Base64) a ser exibida.
@@ -73,6 +76,7 @@ card: Agrupa o conteúdo principal do polaroid.
 
 **3.5 Figura**
 ![image](https://github.com/user-attachments/assets/b5b4427b-82e4-4549-a38c-b6bdbc4929d2)
+
 ```
 figure: Elemento HTML para imagens com legendas.
 className={styles.polaroid}: Aplica estilos específicos do arquivo polaroid.module.css.
