@@ -43,6 +43,20 @@ Renderizando o Componente Polaroid:
 Este arquivo descreve o componente React Polaroid, responsável por renderizar uma imagem com estilo de polaroid, incluir uma legenda e permitir alternar entre modos claro e escuro.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 3.1 Importação:
 
 ![image](https://github.com/user-attachments/assets/3c9f2495-3ef8-4271-81e8-a629657ed3d9)
