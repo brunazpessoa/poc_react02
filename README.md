@@ -75,6 +75,7 @@ card: Agrupa o conteúdo principal do polaroid.
 ```
 
 **3.5 Figura**
+
 ![image](https://github.com/user-attachments/assets/b5b4427b-82e4-4549-a38c-b6bdbc4929d2)
 
 ```
