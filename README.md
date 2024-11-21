@@ -4,6 +4,7 @@ Este projeto é uma aplicação React que implementa um componente Polaroid para
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 **O que é o REACT?**
+
 O React é uma biblioteca JavaScript de código aberto usada para construir interfaces de usuário (UI) de forma eficiente e interativa. Ele é amplamente utilizado no desenvolvimento de aplicações web modernas e segue o paradigma de componentes reutilizáveis, o que facilita a organização e manutenção do código. É utilizado para aplicações web como sistemas de gestão, dashboards e sites dinâmicos.
 
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
@@ -18,7 +19,9 @@ Componente Home: O componente principal que utiliza o Polaroid.
 **Explicação do código**
 
 1. Importando dependências:
+   
 ![image](https://github.com/user-attachments/assets/b2230130-b705-4d29-8c81-8b1344dab5c3)
+
 
 Nessa parte do código (pasta page.tsx) o componente Polaroid é importado da pasta components. Essa abordagem modular melhora a organização e facilita a reutilização do código.
 
