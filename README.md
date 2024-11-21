@@ -42,6 +42,8 @@ Renderizando o Componente Polaroid:
 
 Este arquivo descreve o componente React Polaroid, responsável por renderizar uma imagem com estilo de polaroid, incluir uma legenda e permitir alternar entre modos claro e escuro.
 
+
+
 3.1 Importação:
 
 ![image](https://github.com/user-attachments/assets/3c9f2495-3ef8-4271-81e8-a629657ed3d9)
@@ -49,6 +51,8 @@ Este arquivo descreve o componente React Polaroid, responsável por renderizar u
 -> "use client": Indica que este arquivo React será executado no cliente, no contexto de frameworks como Next.js.
 
 -> styles: Importa o arquivo CSS para aplicar estilos específicos ao componente.
+
+
 
 
 3.2 Função Polaroid:
@@ -60,12 +64,17 @@ Props: Recebe dois parâmetros:
    -> text: Texto para a legenda da imagem.
 
 
+
+
 3.3 Container principal:
 
 ![image](https://github.com/user-attachments/assets/e977cf45-175d-45a1-afb2-38041dd142bf)
 
 
 Classe inicial do modo claro (light-mode). Pode ser alternada para dark-mode por meio de um botão.
+
+
+
 
 3.4 Card
 
@@ -75,6 +84,8 @@ Classe inicial do modo claro (light-mode). Pode ser alternada para dark-mode por
 -> container: Um contêiner que centraliza e organiza o layout do componente.
 
 -> card: Agrupa o conteúdo principal do polaroid.
+
+
 
 
 3.5 Figura
@@ -89,6 +100,9 @@ Classe inicial do modo claro (light-mode). Pode ser alternada para dark-mode por
 -> img: Renderiza a imagem usando o src fornecido.
 
 -> figcaption: Exibe a legenda abaixo da imagem.
+
+
+
 
 
 3.6 Botão alteração de modo 
