@@ -92,6 +92,7 @@ Um botão que alterna as classes dark-mode e light-mode no elemento <body>, muda
 **4.1 Estilo da fonte da polaroid**
 
 ![image](https://github.com/user-attachments/assets/1c789513-10f5-481f-b5d5-c29911bd94ba)
+
 ```
 text-align: center;: Centraliza o texto dentro do elemento <figcaption>.
 font-weight: bold;: Deixa o texto em negrito para destacar a legenda.
@@ -101,6 +102,7 @@ margin-top: 10px;: Adiciona um espaçamento superior entre a legenda e a imagem.
 **4.2 Estilo container da polaroid**
 
 ![image](https://github.com/user-attachments/assets/da67a432-4beb-4a89-88d2-56b30af68e40)
+
 ```
 width: 250px;: Define uma largura fixa para o componente.
 padding: 10px;: Adiciona espaçamento interno ao redor do conteúdo.
@@ -111,6 +113,7 @@ text-align: center;: Centraliza todo o conteúdo dentro do contêiner.
 
 **4.3 Imagem da polaroid**
 ![image](https://github.com/user-attachments/assets/91862277-ef42-414d-8dba-7a2e31272c60)
+
 ```
 max-width: 100%;: Faz com que a imagem se ajuste automaticamente à largura do contêiner, mantendo as proporções.
 border: 1px solid #ddd;: Adiciona uma borda cinza clara ao redor da imagem, reforçando a aparência de uma foto física.
