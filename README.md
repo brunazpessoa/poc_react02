@@ -35,8 +35,17 @@ O Home é um componente funcional. Ele serve como o ponto de entrada para render
 Renderizando o Componente Polaroid:
    -> Um único componente Polaroid é renderizado com dois props:
    
-         - url: Os dados da imagem em formato Base64.
-         - text: A legenda da imagem, que neste caso é "Imagem 1".
+         url: Os dados da imagem em formato Base64.
+         text: A legenda da imagem, que neste caso é "Imagem 1".
 
+3. Componente Polaroid
+
+Este arquivo descreve o componente React Polaroid, responsável por renderizar uma imagem com estilo de polaroid, incluir uma legenda e permitir alternar entre modos claro e escuro.
+
+![image](https://github.com/user-attachments/assets/3c9f2495-3ef8-4271-81e8-a629657ed3d9)
+
+-> "use client": Indica que este arquivo React será executado no cliente, no contexto de frameworks como Next.js.
+
+-> styles: Importa o arquivo CSS para aplicar estilos específicos ao componente.
 
 
