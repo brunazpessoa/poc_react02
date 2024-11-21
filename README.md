@@ -50,6 +50,7 @@ Este arquivo descreve o componente React Polaroid, responsável por renderizar u
 
 -> styles: Importa o arquivo CSS para aplicar estilos específicos ao componente.
 
+
 3.2 Função Polaroid:
 
 ![image](https://github.com/user-attachments/assets/dfb425e8-0426-4582-8f16-065946d866e7)
@@ -59,4 +60,40 @@ Props: Recebe dois parâmetros:
    -> text: Texto para a legenda da imagem.
 
 
+3.3 Container principal:
+
+![image](https://github.com/user-attachments/assets/e977cf45-175d-45a1-afb2-38041dd142bf)
+
+
+Classe inicial do modo claro (light-mode). Pode ser alternada para dark-mode por meio de um botão.
+
+3.4 Card
+
+![image](https://github.com/user-attachments/assets/d7a7af9b-4904-4fc6-81c3-3d197c22b55f)
+
+
+-> container: Um contêiner que centraliza e organiza o layout do componente.
+
+-> card: Agrupa o conteúdo principal do polaroid.
+
+
+3.5 Figura
+
+![image](https://github.com/user-attachments/assets/b5b4427b-82e4-4549-a38c-b6bdbc4929d2)
+
+
+-> figure: Elemento HTML para imagens com legendas.
+
+-> className={styles.polaroid}: Aplica estilos específicos do arquivo polaroid.module.css.
+
+-> img: Renderiza a imagem usando o src fornecido.
+
+-> figcaption: Exibe a legenda abaixo da imagem.
+
+
+3.6 Botão alteração de modo 
+
+![image](https://github.com/user-attachments/assets/1382eaa7-7d04-46b2-a807-51d7536e2c8a)
+
+Um botão que alterna as classes dark-mode e light-mode no elemento <body>, mudando o tema entre claro e escuro. Exibe um ícone de sol/lua para indicar a alternância.
 
